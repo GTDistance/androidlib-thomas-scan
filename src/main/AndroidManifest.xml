@@ -4,6 +4,9 @@
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-feature android:name="android.hardware.autofocus"/>
     <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <!--<uses-sdk-->
+        <!--android:minSdkVersion="16"-->
+        <!--android:targetSdkVersion="23"/>-->
     <application>
         <activity android:name=".MipcaActivityCapture"
             android:configChanges="orientation|keyboardHidden"
