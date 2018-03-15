@@ -150,10 +150,10 @@ public class MipcaActivityCapture extends Activity implements Callback {
 //            resultString = resultString.replaceAll("[^(a-zA-Z0-9\\u4e00-\\u9fa5)]", "");
 //            bundle.putString("result", resultString);
 
-            resultString = resultString.replaceAll("[^(a-zA-Z0-9\\u4e00-\\u9fa5)]", ";");
-            String[] splits = resultString.split(";");
+            // resultString = resultString.replaceAll("[^(a-zA-Z0-9\\u4e00-\\u9fa5)]", ";");
+            // String[] splits = resultString.split(";");
             bundle.putString("result", resultString);
-            bundle.putString("result", splits[0]);
+            // bundle.putString("result", splits[0]);
 
 //            bundle.putParcelable("bitmap", barcode);
             resultIntent.putExtras(bundle);
